@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    margin-bottom: -10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    }
+    body{
+       background-image: url('img/3spiders.jpg');
+       background-attachment: fixed;
+       background-position: top;
+       background-repeat: no-repeat;
+       background-size: cover;
+
+    }
+
+    .center{
+        max-width: 1100px;
+        margin: 2 auto;
+        padding: 0 2%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    header{
+        line-height: 50px;
+        background-color: #000000;
+        padding: 20px 0;
+        margin-bottom: 0;
+        border-bottom: 3px solid #f50000;
+    }
+    .logo{
+color: #ffffff;
+    }
+    .logo h2{
+        font-size: 34px;
+        font-weight: normal;
+            }
+
+    .menu{
+        width: 90%;
+        text-align: right;
+            }
+    .menu a{
+        color: #ffffff;
+        font-size: 20px;
+        text-decoration: none;
+        margin-right: 40px;
+        transition: 0.5s;
+            }
+    .menu a:hover{
+                color: #d1d1d1;
+                    }
+    .menu .btn-menu{
+        font-size: 22px;
+                color: white;
+                background-color: #ec2719;
+
+                padding: 6px 10px;
+                border-radius: 6px;
+                cursor: pointer;
+                    }
+    .menu .btn-menu:hover{
+                color: white;
+                padding: 6px 12px;
+                background-color: #af0c00;
+                    }
+
+                    /*
+                 Section Main 
+                    */
+                    section.main{
+
+                    }
+
+    .main_cta{
+     width: 100%;
+     margin:60px 0; 
+     text-align: center;
+     text-shadow: black 0.1em 0.1em 0.2em;
+                    }
+  .main_cta h2{
+      color: white;
+      height: 55%;
+     font-size: 40px;
+  }
+
+  .main_cta p{
+    height: 35%;
+    color: rgb(255, 255, 255);
+
+  }
+
+  .main h2{
+    font-size: 60;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1px;
+  }
+
+  .main p{
+    font-size: 30;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+
+  .main_cta button{
+    color: white;
+    background-color: #ec2719;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  .diferenciais{
+      color: rgb(255, 255, 255);
+      width: 60%;
+      display: flex;
+      position: relative;
+      margin-left: -160px;
+      margin-top: 40px;
+ 
+    }
+
+  .diferencial-single{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.575);
+    transition: 0.5s;
+    text-align: center;
+    margin-right: 3%;
+    padding: 45px 45px;
+    border-radius: 15px;
+
+}
+
+.diferencial-single h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 50px;
+    line-break: normal;
+}
+.diferencial-single p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 50px;
+    line-break: normal;
+}
+
+
+        .diferencial-single button{
+            color: white;
+            background-color: #ec2719;
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 0;
+            font-size: 22px;
+            cursor: pointer;
+        }
